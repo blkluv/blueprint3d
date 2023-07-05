@@ -26,14 +26,15 @@
     "grunt-subgrunt": "^1.2.0",
     "grunt-typedoc": "^0.2.3",
     "grunt-typescript": "^0.6.1",
-    "matchdep": "^2.0.0"
+    "matchdep": "^2.0.0",
+    "typescript": "^5.1.6"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/blkluv/blueprint3d"
   },
   "scripts": {
-    "build": "browserify src/blueprint3d.js -o example/js/blueprint3d.js --verbose"
+    "build": "tsc && browserify dist/blueprint3d.js -o example/js/blueprint3d.js --verbose"
   },
   "author": ""
 }
