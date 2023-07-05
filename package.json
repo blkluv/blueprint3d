@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ekki/blueprint3d.git"
+    "url": "https://github.com/blkluv/blueprint3d"
   },
   "scripts": {
-    "build": "browserify src/blueprint3d.js > example/js/blueprint3d.js --verbose"
+    "build": "browserify src/blueprint3d.js -o example/js/blueprint3d.js --verbose"
   },
   "author": ""
 }
